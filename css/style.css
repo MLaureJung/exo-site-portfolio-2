@@ -1,3 +1,128 @@
-#intro {
-    background-color: blue;
+h1, h2, h3, a, .readmore {
+    text-transform: uppercase; 
 }
+
+header {
+    position: relative; 
+    background: url(../images/mountains.jpg) no-repeat center center;
+    background-size: cover;
+    height: 400px;
+
+}
+
+#overlay {
+    position: absolute; /* Sit on top of the page content */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    background-color: rgba(95, 95, 95, 0.5); /* Black background with opacity */
+  }
+
+#container-header {
+      position: relative; 
+  }
+
+#main-navbar {
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-bottom-right-radius: 10px;
+    width: 400px ;
+    background-color: rgb(124, 124, 124); 
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.nav-link {
+    color: white!important; 
+    font-size: 0.9em;
+}
+
+#description {
+    color: white; 
+    text-align: center; 
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-style: italic; 
+    margin-top: 30px;
+}
+
+h3 {
+    font-weight: bold;
+    width: 150px;
+    text-align: center; 
+    padding: 10px 0;
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: -25px;
+    position: relative; 
+}
+
+.blue-background {
+    background-color: rgb(14, 7, 44);
+}
+
+aside {
+    font-size: 2em;
+    text-align: center; 
+    border: 1px solid white;
+    border-radius: 10px; 
+    padding: 20px;
+    margin: 20px;
+}
+
+.pagination {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 30px;
+    margin-bottom: 70px; 
+}
+
+.page-link {
+    color: rgb(124, 124, 124);
+    border-radius: 7px!important; 
+}
+.page-item {
+    margin-left: 10px; 
+    margin-right: 10px; 
+}
+
+.white-background {
+    background-color: white; 
+}
+
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (max-width: 575.98px) { 
+    #main-navbar { 
+        width: 100%;
+        border: none;
+    }
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (max-width: 767.98px) { 
+    #main-navbar { 
+        width: 100%;
+        border: none;
+    }
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (max-width: 991.98px) { 
+    #main-navbar { 
+        width: 100%;
+        border: none;
+    }
+ }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1199.98px) { 
+    
+ }
