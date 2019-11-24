@@ -7,7 +7,6 @@ header {
     background: url(../images/mountains.jpg) no-repeat center center;
     background-size: cover;
     height: 400px;
-
 }
 
 #overlay {
@@ -30,6 +29,8 @@ header {
     width: 382px ;
     background-color: rgba(180, 180, 180, 0.3); 
     padding: 0;
+    position:absolute;
+    z-index: 0;
 }
 
 p {
@@ -50,13 +51,14 @@ p {
 #description {
     color: white; 
     text-align: center; 
-    margin-top: 50px;
+    padding-top: 120px;
+    
+     
 }
 
 h2 {
     font-size: 1.5em;
     font-style: italic; 
-    margin-top: 30px;
 }
 
 section {
@@ -262,12 +264,7 @@ footer {
     margin-top: 20px;
     text-align: center;
     font-weight: bold;
-
-
 }
-
-
-
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (max-width: 575.98px) { 

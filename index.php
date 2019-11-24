@@ -131,7 +131,7 @@
                         <?php foreach($workPosts as $post): ?>
                             <div class="col-md-4">
                                 <div class="articles">
-                                    <img src="images/<?= $post["picture"]; ?>" alt="sand"/>
+                                    <img src="images/<?= $post["picture"]; ?>" alt="<?=$post["title"]; ?>"/>
                                     <h4><?=$post["title"]; ?></h4>
                                     <p class="text-article"><?= substr($post["summary"], 0, 120) . "..."; ?></p>
                                     <div class="readmore" >
