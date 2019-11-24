@@ -55,7 +55,7 @@
       
         <section  class="blue-background" id="intro">
             
-            <h3 id="ancreintro" class="blue-background">Intro</h3>
+            <h3 id="ancreIntro" class="blue-background">Intro</h3>
            
             <div class="container">
                 <div class="row">
