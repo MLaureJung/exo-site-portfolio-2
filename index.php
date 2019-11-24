@@ -1,3 +1,9 @@
+<?php 
+
+    require "data.php";
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -122,36 +128,18 @@
             <article>         
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4">
-                            <div class="articles">
-                                <img src="images/article-1.jpg" alt="sand"/>
-                                <h4>Article 1</h4>
-                                <p class="text-article">Laboriosam exercitationem suscipit similique nam quibusdam, accusantium nemo eum tenetur asperiores qui omnis beatae veniam iste, magnam accusamus numquam? Nam esse praesentium natus facilis corporis impedit laboriosam, culpa obcaecati saepe! </p>
-                                <div class="readmore" >
-                                    <a class="buttonhover" href="#">Read more</a>
+                        <?php foreach($workPosts as $post): ?>
+                            <div class="col-md-4">
+                                <div class="articles">
+                                    <img src="images/<?= $post["picture"]; ?>" alt="sand"/>
+                                    <h4><?=$post["title"]; ?></h4>
+                                    <p class="text-article"><?= substr($post["summary"], 0, 120) . "..."; ?></p>
+                                    <div class="readmore" >
+                                        <a class="buttonhover" href="#">Read more</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="articles">
-                                <img src="images/article-2.jpg" alt="country"/>
-                                <h4>Article 2</h4>
-                                <p class="text-article">Laboriosam exercitationem suscipit similique nam quibusdam, accusantium nemo eum tenetur asperiores qui omnis beatae veniam iste, magnam accusamus numquam? Nam esse praesentium natus facilis corporis impedit laboriosam, culpa obcaecati saepe! </p>
-                                <div class="readmore">
-                                    <a class="buttonhover" href="#">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="articles">
-                                <img src="images/article-3.jpg" alt="city"/>
-                                <h4>Article 3</h4>
-                                <p class="text-article">Laboriosam exercitationem suscipit similique nam quibusdam, accusantium nemo eum tenetur asperiores qui omnis beatae veniam iste, magnam accusamus numquam? Nam esse praesentium natus facilis corporis impedit laboriosam, culpa obcaecati saepe! </p>
-                                <div class="readmore">
-                                    <a class="buttonhover" href="#">Read more</a>
-                                </div>
-                            </div>
-                        </div>
+                        <?php endforeach; ?>
                     </div>
                 </div>
             </article>
