@@ -27,8 +27,9 @@ header {
     border-right: 1px solid white;
     border-bottom: 1px solid white;
     border-bottom-right-radius: 10px;
-    width: 400px ;
-    background-color: rgb(124, 124, 124); 
+    width: 382px ;
+    background-color: rgba(180, 180, 180, 0.3); 
+    padding: 0;
 }
 
 p {
@@ -36,8 +37,14 @@ p {
 }
 
 .nav-link {
-    color: white!important; 
+    color:  white!important; 
     font-size: 0.9em;
+    padding: 15px 10px!important;
+    transition: all 0.2s ease-in-out; 
+}
+
+.nav-link:hover {
+    background-color:rgba(0,0,0, 0.2);
 }
 
 #description {
@@ -52,25 +59,36 @@ h2 {
     margin-top: 30px;
 }
 
+section {
+    position: relative; 
+    padding-top: 60px;
+}
+
 h3 {
+    color: rgb(124, 124, 124); 
+    font-size: 1.5em;
     font-weight: bold;
     width: 150px;
     text-align: center; 
     padding: 10px 0;
-    margin-left: auto; 
-    margin-right: auto; 
-    margin-top: -25px;
-    position: relative; 
+    position: absolute;
+    top: -25px;
+    left: calc(50% - 75px);
 }
 
 .blue-background {
     background-color: rgb(14, 7, 44);
+    color: white; 
+}
+
+.text-intro {
+    color: rgb(255, 255, 255); 
 }
 
 aside {
     font-size: 2em;
     text-align: center; 
-    border: 1px solid white;
+    border: 1px solid rgb(124, 124, 124); 
     border-radius: 10px; 
     padding: 20px;
     margin: 20px;
@@ -84,9 +102,18 @@ aside {
 }
 
 .page-link {
+    font-weight: bold; 
     color: rgb(124, 124, 124);
     border-radius: 7px!important; 
+    border:none; 
+    transition: all 0.2s ease-in-out;
 }
+
+.page-link:hover {
+    background-color: rgb(124, 124, 124);
+    color: white; 
+}
+
 .page-item {
     margin-left: 10px; 
     margin-right: 10px; 
@@ -95,6 +122,150 @@ aside {
 .white-background {
     background-color: white; 
 }
+
+.text-bio {
+    text-align: center; 
+    color:  rgb(124, 124, 124);
+    width: 100%; 
+    margin: 15px 0;
+}
+
+.table {
+    margin-bottom: 70px;
+}
+thead {
+    background-color: rgb(14, 7, 44);
+    color: white; 
+    text-align: center; 
+    font-weight: bold; 
+    text-transform: uppercase;
+}
+
+.legends {
+    background-color: rgb(124, 124, 124); 
+    text-transform: uppercase; 
+    font-size: 0.9em;
+    font-weight: bold; 
+    color: white;
+}
+
+.column-border {
+    border: 1px solid rgba(124, 124, 124, 0.3); 
+    color:  rgb(124, 124, 124); 
+    font-weight: bold; 
+}
+
+.grey-background {
+    background-color:  rgb(180, 180, 180); 
+    color: white; 
+}
+
+.articles img {
+    border: 10px solid rgba(255, 255, 255, 0.637);
+    margin-bottom: 15px;
+    width: 100%;
+
+}
+
+.articles {
+    text-align: center;
+    padding: 0 15px; 
+}
+
+.text-article{
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+}
+
+h4 {
+    font-size: 1.9em;
+    font-weight: bold; 
+    margin: 10px 0;
+}
+
+.readmore a {
+    text-decoration: none; 
+    color: white;
+    transition: all 0.2s ease-in-out; 
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+.readmore {
+    margin: 20px 0 60px;
+    font-weight: bold; 
+}
+
+.readmore a:hover{
+    background-color: white;
+    color: rgb(180, 180, 180); 
+}
+
+form {
+    color: rgb(124, 124, 124); 
+    font-weight: bold;
+}
+
+input, select, textarea {
+    background-color: rgb(124, 124, 124)!important; 
+    color: white!important; 
+}
+
+*:focus {
+    outline-style: none!important;
+    box-shadow: none!important; 
+    border: white;
+}
+
+input::placeholder, textarea::placeholder {
+    color: white!important; 
+}
+
+textarea {
+    height: 200px!important;
+}
+
+.form-check {
+    display: inline;
+}
+
+.form-group {
+    display: block;
+    padding-top: 10px;
+}
+
+button {
+    background-color: rgb(124, 124, 124)!important; 
+    border: rgb(124, 124, 124)!important;
+    transition:all 0.2s ease-in-out; 
+}
+
+button:hover {
+    background-color:  rgb(180, 180, 180)!important;
+    color: rgb(124, 124, 124)!important;
+}
+
+#address {
+    color: rgb(124, 124, 124);
+    font-size: 1em;
+    border-left: 1px solid rgb(124,124,124);
+    padding-left: 20px;
+
+}
+
+footer {
+    background: url(../images/seawater.jpg) no-repeat center center;
+    background-size: cover;
+    color: white; 
+    padding: 50px 0px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+
+
+}
+
 
 
 

@@ -48,14 +48,14 @@
         </header>
         <section class="blue-background" id="intro">
             
-                <h3 class="blue-background">Intro</h3>
+            <h3 class="blue-background">Intro</h3>
            
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, commodi? Dolores, optio? Quam ab assumenda magni eius voluptas cupiditate excepturi.</p>
-                        <aside><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, cum.</p></aside>
-                        <p>Explicabo dignissimos natus a necessitatibus iste voluptates aliquam blanditiis, perferendis aliquid at ipsum nostrum inventore sint consectetur commodi et? Unde, excepturi nemo. Voluptates et necessitatibus perferendis ipsum, eos, molestias eligendi repellendus quasi similique aspernatur corrupti. Quos, numquam velit? Maxime voluptates, alias, autem neque vel molestias id laborum ipsa sit asperiores consequatur, vitae consequuntur!</p>
+                        <p class="text-intro">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, commodi? Dolores, optio? Quam ab assumenda magni eius voluptas cupiditate excepturi.</p>
+                        <aside><p class="text-intro">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, cum.</p></aside>
+                        <p class="text-intro">Explicabo dignissimos natus a necessitatibus iste voluptates aliquam blanditiis, perferendis aliquid at ipsum nostrum inventore sint consectetur commodi et? Unde, excepturi nemo. Voluptates et necessitatibus perferendis ipsum, eos, molestias eligendi repellendus quasi similique aspernatur corrupti. Quos, numquam velit? Maxime voluptates, alias, autem neque vel molestias id laborum ipsa sit asperiores consequatur, vitae consequuntur!</p>
                         <nav aria-label="Articles pagination">
                             <ul class="pagination">
                                 <li class="page-item"><a class="page-link" href="#">See my work</a></li>
@@ -73,8 +73,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <div id="image-bio"></div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum iure odit aliquam iusto, blanditiis perferendis voluptatum recusandae nesciunt fugiat maiores impedit deleniti delectus ipsum dolor ratione quidem minus fugit beatae maxime corrupti modi ut. Mollitia laborum corporis molestiae neque eum.</p>
+                        <img width="100%" src="images/looking.jpg" alt="looking" />
+                        <div class="text-bio"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum iure odit aliquam iusto, blanditiis perferendis voluptatum recusandae nesciunt fugiat maiores impedit deleniti delectus ipsum dolor ratione quidem minus fugit beatae maxime corrupti modi ut. Mollitia laborum corporis molestiae neque eum.</p>
+                        </div>
                         <div>
                             <table class="table">
                                 <thead>
@@ -84,29 +85,29 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
+                                    <tr class="legends">
                                         <th scope="col">Language</th>
                                         <th scope="col">Note</th>
                                         <th scope="col">Environnement</th>
                                         <th scope="col">Note</th>
                                     </tr>
                                     <tr>
-                                        <td>HTML</td>
-                                        <td></td>
-                                        <td>Linux</td>
-                                        <td></td>
+                                        <td class="column-border">HTML</td>
+                                        <td class="column-border"></td>
+                                        <td class="column-border">Linux</td>
+                                        <td class="column-border"></td>
                                     </tr>
                                     <tr>
-                                        <td>CSS</td>
-                                        <td></td>
-                                        <td>MacOs</td>
-                                        <td></td>
+                                        <td class="column-border">CSS</td>
+                                        <td class="column-border"></td>
+                                        <td class="column-border">MacOs</td>
+                                        <td class="column-border"></td>
                                     </tr>
                                     <tr>
-                                        <td>PHP</td>
-                                        <td></td>
-                                        <td>Windows</td>
-                                        <td></td>
+                                        <td class="column-border">PHP</td>
+                                        <td class="column-border"></td>
+                                        <td class="column-border">Windows</td>
+                                        <td class="column-border"></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -116,48 +117,55 @@
             </div>
 
         </section>
-        <section>
-            <h3>Work</h3>
-            <article>
+        <section class="grey-background">
+            <h3 class="grey-background">Work</h3>
+            <article>         
                 <div class="container">
                     <div class="row">
                         <div class="col-md-4">
-                            <h4>Article 1</h4>
-                            <p>Laboriosam exercitationem suscipit similique nam quibusdam, accusantium nemo eum tenetur asperiores qui omnis beatae veniam iste, magnam accusamus numquam? Nam esse praesentium natus facilis corporis impedit laboriosam, culpa obcaecati saepe! Quia mollitia distinctio eveniet fugiat, laboriosam asperiores minus possimus repellat optio, amet ex! Ad rerum fugiat quaerat, at aspernatur nemo quam est deleniti.</p>
-                            <div class="readmore">
-                                <p>Read more</p>
+                            <div class="articles">
+                                <img src="images/article-1.jpg" alt="sand"/>
+                                <h4>Article 1</h4>
+                                <p class="text-article">Laboriosam exercitationem suscipit similique nam quibusdam, accusantium nemo eum tenetur asperiores qui omnis beatae veniam iste, magnam accusamus numquam? Nam esse praesentium natus facilis corporis impedit laboriosam, culpa obcaecati saepe! </p>
+                                <div class="readmore" >
+                                    <a class="buttonhover" href="#">Read more</a>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <h4>Article 2</h4>
-                            <p>Laboriosam exercitationem suscipit similique nam quibusdam, accusantium nemo eum tenetur asperiores qui omnis beatae veniam iste, magnam accusamus numquam? Nam esse praesentium natus facilis corporis impedit laboriosam, culpa obcaecati saepe! Quia mollitia distinctio eveniet fugiat, laboriosam asperiores minus possimus repellat optio, amet ex! Ad rerum fugiat quaerat, at aspernatur nemo quam est deleniti.</p>
-                            <div class="readmore">
-                                <p>Read more</p>
+                            <div class="articles">
+                                <img src="images/article-2.jpg" alt="country"/>
+                                <h4>Article 2</h4>
+                                <p class="text-article">Laboriosam exercitationem suscipit similique nam quibusdam, accusantium nemo eum tenetur asperiores qui omnis beatae veniam iste, magnam accusamus numquam? Nam esse praesentium natus facilis corporis impedit laboriosam, culpa obcaecati saepe! </p>
+                                <div class="readmore">
+                                    <a class="buttonhover" href="#">Read more</a>
+                                </div>
                             </div>
                         </div>
-                
                         <div class="col-md-4">
-                            <h4>Article 3</h4>
-                            <p>Laboriosam exercitationem suscipit similique nam quibusdam, accusantium nemo eum tenetur asperiores qui omnis beatae veniam iste, magnam accusamus numquam? Nam esse praesentium natus facilis corporis impedit laboriosam, culpa obcaecati saepe! Quia mollitia distinctio eveniet fugiat, laboriosam asperiores minus possimus repellat optio, amet ex! Ad rerum fugiat quaerat, at aspernatur nemo quam est deleniti.</p>
-                            <div class="readmore">
-                                <p>Read more</p>
+                            <div class="articles">
+                                <img src="images/article-3.jpg" alt="city"/>
+                                <h4>Article 3</h4>
+                                <p class="text-article">Laboriosam exercitationem suscipit similique nam quibusdam, accusantium nemo eum tenetur asperiores qui omnis beatae veniam iste, magnam accusamus numquam? Nam esse praesentium natus facilis corporis impedit laboriosam, culpa obcaecati saepe! </p>
+                                <div class="readmore">
+                                    <a class="buttonhover" href="#">Read more</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </article>
         </section>
-        <section>
+        <section class="dark-grey-background">
             
-            <h3>Contact</h3>
+            <h3 class="white-background">Contact</h3>
             <div class="container">
                 <div class="row">
                     <div class="col-md-7">
                         <form>
                             <fieldset class="form-group">
                                 <div class="row">
-                                    <legend class="col-form-label col-sm-2 pt-0"></legend>
-                                    <div class="col-sm-10">
+                                    <div class="col-sm-12">
                                     <div class="form-check">
                                         <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
                                         <label class="form-check-label" for="gridRadios1">
@@ -171,7 +179,7 @@
                                         </label>
                                     </div>
                                     <div class="form-check disabled">
-                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" checked>
                                         <label class="form-check-label" for="gridRadios3">
                                         Robot
                                         </label>
@@ -180,8 +188,8 @@
                                 </div>
                             </fieldset>
                             <div class="form-group row">
-                                <label for="inputSubject" class="col-sm-2 col-form-label">Subject</label>
-                                <div class="col-sm-10">
+                                <label for="inputSubject" class="col-sm-12 col-form-label">Subject</label>
+                                <div class="col-sm-12">
                                 <select type="subject" class="form-control" id="inputSubject">
                                     <option selected>Work</option>
                                     <option selected>Other</option>
@@ -190,35 +198,35 @@
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label for="inputNickname" class="col-sm-2 col-form-label">Nickname</label>
-                                <div class="col-sm-10">
+                                <label for="inputNickname" class="col-sm-12 col-form-label">Nickname</label>
+                                <div class="col-sm-12">
                                 <input type="nickname" class="form-control" id="inputNickname" placeholder="Nickname">
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label for="inputEmail" class="col-sm-2 col-form-label">Email address</label>
-                                <div class="col-sm-10">
+                                <label for="inputEmail" class="col-sm-12 col-form-label">Email address</label>
+                                <div class="col-sm-12">
                                     <input type="email" class="form-control" id="inputEmail" placeholder="Your email">
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label for="inputMessage" class="col-sm-2 col-form-label">Message</label>
-                                <div class="col-sm-10">
-                                    <input type="message" class="form-control" id="inputMessage" placeholder="Your message">
+                                <label for="inputMessage" class="col-sm-12 col-form-label">Message</label>
+                                <div class="col-sm-12">
+                                    <textarea class="form-control" id="inputMessage" placeholder="Your message"></textarea>
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <div class="col-sm-10">
+                                <div class="col-sm-12">
                                 <button type="submit" class="btn btn-primary">reset</button>
                                 <button type="submit" class="btn btn-primary">Send this message!</button>
                                 </div>
                             </div>
                         </form>
                     </div>
-                    <div class="col-md-5">
-                        <aside>
+                    <div id="address" class="col-md-5">
+                        <div>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias a voluptate praesentium tenetur, deleniti numquam magni aut blanditiis id reiciendis, perspiciatis vel, alias error repellendus nesciunt. Atque ipsum dolore facere architecto nihil. Et voluptatum enim nam hic odio fugit perferendis.</p>
-                        </aside>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -227,7 +235,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <p>JUNGY Copyright.... </p>
+                        <p>JUNGY © Copyright.... </p>
                     </div>
                 </div>
             </div>
