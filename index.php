@@ -19,42 +19,43 @@
 </head>
 <body>
     <main>
+        <nav id="main-navbar" class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ancreIntro">Hello</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ancreBio">Who I am</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#ancreWork">What I do</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#ancreContact">Say hi</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
         <header>
             <div id="overlay"></div>
             <div id="container-header">  
-                <nav id="main-navbar" class="navbar navbar-expand-lg navbar-light">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Hello</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Who I am</a>
-                            </li>
-                            <li class="nav-item">
-                                    <a class="nav-link" href="#">What I do</a>
-                            </li>
-                            <li class="nav-item">
-                                    <a class="nav-link" href="#">Say hi</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
                 <div id="description">
                     <h1>Marie Laure JUNG</h1>
                     <h2>Debitis, cupiditate?</h2>
                 </div>
             </div>  
         </header>
-        <section class="blue-background" id="intro">
+      
+        <section  class="blue-background" id="intro">
             
-            <h3 class="blue-background">Intro</h3>
+            <h3 id="ancreintro" class="blue-background">Intro</h3>
            
             <div class="container">
                 <div class="row">
@@ -74,7 +75,7 @@
         </section>
         <section>
          
-                <h3 class="white-background">Bio</h3>
+                <h3 id="ancreBio" class="white-background">Bio</h3>
          
             <div class="container">
                 <div class="row">
@@ -124,7 +125,7 @@
 
         </section>
         <section class="grey-background">
-            <h3 class="grey-background">Work</h3>
+            <h3 id="ancreWork" class="grey-background">Work</h3>
             <article>         
                 <div class="container">
                     <div class="row">
@@ -146,7 +147,7 @@
         </section>
         <section class="dark-grey-background">
             
-            <h3 class="white-background">Contact</h3>
+            <h3 id="ancreContact" class="white-background">Contact</h3>
             <div class="container">
                 <div class="row">
                     <div class="col-md-7">
@@ -219,6 +220,7 @@
                 </div>
             </div>
         </section>
+     
         <footer>
             <div class="container">
                 <div class="row">
